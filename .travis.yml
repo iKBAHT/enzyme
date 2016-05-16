@@ -14,7 +14,6 @@ script:
 after_script:
   - 'if [ "${TRAVIS_NODE_VERSION}" = "4" ] || [ "${TRAVIS_NODE_VERSION}" = "0.12" ]; then cat ./coverage/lcov.info | ./node_modules/.bin/coveralls ; fi'
 env:
-  - REACT=0.13
   - REACT=0.14
   - REACT=15
   - EXAMPLE=mocha
