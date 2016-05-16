@@ -1,5 +1,5 @@
 {
-  "name": "enzyme",
+  "name": "enzyme-fresh",
   "version": "2.3.0",
   "description": "JavaScript Testing utilities for React",
   "main": "build",
@@ -81,6 +81,6 @@
     "sinon": "^1.17.3"
   },
   "peerDependencies": {
-    "react": "0.13.x || 0.14.x || ^15.0.0-0"
+    "react": "0.14.x || ^15.0.0-0"
   }
 }
